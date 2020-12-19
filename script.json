@@ -1,0 +1,48 @@
+{
+	"scripts": {
+		"0": {
+			"0": {
+				"speaker_id": "1",
+				"speaker_name": "Ezmeralda",
+				"text": "This i|[color=red]s the part[/color]| where | the text goes"
+			},
+			"1": {
+				"speaker_id": "0",
+				"speaker_name": "Pink",
+				"text": "Hi ez"
+			},
+			"2": {
+				"speaker_id": "1",
+				"speaker_name": "Ezmeralda",
+				"text": "Hi Pink"
+			},
+			"3": {
+				"speaker_id": "gem",
+				"speaker_name": "Idiom Found!",
+				"text": "You collected a new idiom!"
+			}
+		},
+		"1": {
+			"0": {
+				"speaker_id": "2",
+				"speaker_name": "Neon",
+				"text": "This i|[color=red]s the part[/color]| where | the text goes"
+			},
+			"1": {
+				"speaker_id": "0",
+				"speaker_name": "Pink",
+				"text": "This would be used for the other person"
+			},
+			"2": {
+				"speaker_id": "1",
+				"speaker_name": "Neon",
+				"text": "Very cool"
+			},
+			"3": {
+				"speaker_id": "0",
+				"speaker_name": "Pink",
+				"text": "Yes"
+			}
+		}
+	}
+}
