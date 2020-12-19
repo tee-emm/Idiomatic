@@ -57,9 +57,9 @@
                 "text": "That’s how I got here. I left my home country Turkey through the portal doors when I was 15, and never looked back since."
             },
             "11": {
-                "speaker_id": "0",
+                "speaker_id": "1",
                 "speaker_name": "Zeren",
-                "text": "Zeren looks off into the distance before brightening up."
+                "text": "[i]Zeren looks off into the distance before brightening up.[/i]"
             },
             "12": {
                 "speaker_id": "1",
@@ -194,7 +194,7 @@
             "13": {
                 "speaker_id": "gem_white",
                 "speaker_name": "[color=lightgrey]French Idiom[/color]",
-                "text": "Passer une nuit blanche|To spend a white night |To have a sleepless night"
+                "text": "Passer une nuit blanche|[color=lightgrey]To spend a white night[/color] |To have a sleepless night"
             }
         },
         "3": {
@@ -241,7 +241,7 @@
             "8": {
                 "speaker_id": "gem_brown",
                 "speaker_name": "[color=brown]Italian Idiom[/color]",
-                "text": "commesso un marrone|committed a brown |make a blunder because of carelessness"
+                "text": "commesso un marrone|[color=brown]to commit a brown[/color] |make a blunder because of carelessness"
             }
         },
         "4": {
@@ -268,12 +268,12 @@
             "4": {
                 "speaker_id": "4",
                 "speaker_name": "Esperanza",
-                "text": "My better half! My soulmate! This idiom is popular in Spain, but it comes from an ancient Greek legend from Plato’s The Banquet. "
+                "text": "My better half! My soulmate! This idiom is popular in Spain, but it comes from an ancient Greek legend from Plato’s The Banquet. In the story, humans used to be "
             },
             "5": {
                 "speaker_id": "4",
                 "speaker_name": "Esperanza",
-                "text": "In the story, humans used to be round orange-shaped creatures with two faces on the same head. So vain because of their completeness, they approached the Gods as equals."
+                "text": "round orange-shaped creatures with two faces on the same head. So vain because of their completeness, they approached the Gods as equals."
             },
             "6": {
                 "speaker_id": "4",
@@ -298,7 +298,7 @@
             "10": {
                 "speaker_id": "gem_orange",
                 "speaker_name": "[color=orange]Spanish Idiom[/color]",
-                "text": "media naranja|orange half |better half; soulmate"
+                "text": "media naranja|[color=orange]orange half[/color] |better half; soulmate"
             }
         },
         "5": {
@@ -360,7 +360,7 @@
             "11": {
                 "speaker_id": "gem_grey",
                 "speaker_name": "[color=grey]German Idiom[/color]",
-                "text": "graue theorie|grey theory |An unproven theory."
+                "text": "graue theorie|[color=grey]grey theory[/color] |An unproven theory."
             }
         },
         "6": {
@@ -392,7 +392,7 @@
             "5": {
                 "speaker_id": "6",
                 "speaker_name": "Guanyin",
-                "text": "青黄不接 (qīng huáng bù jiē). Spring yellow not received; in other words, the autumn will not last until spring."
+                "text": "[color=#E8C210]青黄不接 (qīng huáng bù jiē)[/color]. Spring yellow not received; in other words, the autumn will not last until spring."
             },
             "6": {
                 "speaker_id": "0",
@@ -426,8 +426,8 @@
             },
             "12": {
                 "speaker_id": "gem_yellow",
-                "speaker_name": "[color=yellow]Chinese Idiom[/color]",
-                "text": "青黄不接 (qīng huáng bù jiē)|spring yellow not received |resources are low; not able to make ends meet."
+                "speaker_name": "[color=#E8C210]Chinese Idiom[/color]",
+                "text": "青黄不接 (qīng huáng bù jiē)|[color=#E8C210]spring yellow not received[/color] |resources are low; not able to make ends meet."
             }
         },
         "7": {
@@ -556,7 +556,7 @@
             "11": {
                 "speaker_id": "gem_green",
                 "speaker_name": "[color=green]Vietnamese Idiom[/color]",
-                "text": "tóc xanh|green hair |to be young"
+                "text": "tóc xanh|[color=green]green hair [/color]|to be young"
             }
         },
         "9": {
@@ -641,9 +641,9 @@
                 "text": "I’m not quite sure."
             },
             "16": {
-                "speaker_id": "0",
-                "speaker_name": "Pinky",
-                "text": "There is an awkward silence."
+                "speaker_id": "",
+                "speaker_name": "",
+                "text": "[i]There is an awkward silence.[/i]"
             },
             "17": {
                 "speaker_id": "9",
@@ -653,7 +653,7 @@
             "18": {
                 "speaker_id": "0",
                 "speaker_name": "Pinky",
-                "text": "Oh, it’s just usually the travellers I meet give me gems."
+                "text": "Oh, well I'm kinda in a rush, but usually the travellers I meet give me gems."
             },
             "19": {
                 "speaker_id": "9",
@@ -661,9 +661,14 @@
                 "text": "..."
             },
             "20": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "That doesn't really make sense, but you can have this if you want."
+            },
+            "21": {
                 "speaker_id": "gem_blue",
                 "speaker_name": "[color=blue]Navajo Idiom[/color]",
-                "text": "dootɬʔizh|blue |south"
+                "text": "dootɬʔizh|[color=blue]blue[/color] |south"
             }
         },
         "10": {
@@ -750,7 +755,7 @@
             "16": {
                 "speaker_id": "gem_purple",
                 "speaker_name": "[color=purple]Portuguese Idiom[/color]",
-                "text": "ficar roxo de raiva|turn purple with rage. |to become very angry."
+                "text": "ficar roxo de raiva|[color=purple]turn purple with rage.[/color] |to become very angry."
             }
         },
         "11": {
@@ -822,7 +827,7 @@
             "13": {
                 "speaker_id": "gem_red",
                 "speaker_name": "[color=red]Arabic Idiom[/color]",
-                "text": "الموت الأحمر (almawt-alahmar)|red death. |a painful death, like murder"
+                "text": "الموت الأحمر (almawt-alahmar)|[color=red]red death.[/color] |a painful death, like murder"
             }
         },
         "12": {
@@ -837,8 +842,8 @@
                 "text": "Zeren!"
             },
             "2": {
-                "speaker_id": "11",
-                "speaker_name": "Hamal",
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
                 "text": "Did you have fun on your travels?"
             },
             "3": {
@@ -847,8 +852,8 @@
                 "text": "Loads of fun. I learned a lot too."
             },
             "4": {
-                "speaker_id": "11",
-                "speaker_name": "Hamal",
+               "speaker_id": "1",
+                "speaker_name": "Zeren",
                 "text": "Would you like to tell me about it?"
             },
             "5": {

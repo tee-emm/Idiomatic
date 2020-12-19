@@ -3652,7 +3652,6 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		{BG_Layer3_Crystal4: 0},
 		{BG_Layer1_OrangeMountain: 0},
 		{BG_Layer1_OrangeMountain2: 0},
-		{TM_Forest: 0},
 		{TM_Cave: 0},
 		{TM_Temple: 0},
 		{Water_Caves: 0},
@@ -3740,6 +3739,7 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		{Zeren_pink2: 0},
 		{Zeren_pink3: 0},
 		{Text: 0},
+		{DialogueBox_Long: 0},
 		{Solid: 0},
 		{Jumpthru: 0},
 		{Solids: 0},
@@ -4221,7 +4221,7 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		() => 12,
 		() => 13,
 		() => 7,
-		() => 21,
+		() => 22,
 		() => 10,
 		() => 17
 	];
