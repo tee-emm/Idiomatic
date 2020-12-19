@@ -3742,6 +3742,7 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		{Background: 0},
 		{Sine2: 0},
 		{LocationMarker: 0},
+		{up: 0},
 		{Solid: 0},
 		{Jumpthru: 0},
 		{Solids: 0},
