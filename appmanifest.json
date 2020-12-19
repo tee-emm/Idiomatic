@@ -1,7 +1,7 @@
 {
-	"name": "KiwiStory",
-	"short_name": "KiwiStory",
-	"description": "Demo platform game for Construct 3.",
+	"name": "Idiomatic",
+	"short_name": "Idiomatic",
+	"description": "",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",

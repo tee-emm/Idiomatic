@@ -1,48 +1,861 @@
 {
-	"scripts": {
-		"0": {
-			"0": {
-				"speaker_id": "1",
-				"speaker_name": "Ezmeralda",
-				"text": "This i|[color=red]s the part[/color]| where | the text goes"
-			},
-			"1": {
-				"speaker_id": "0",
-				"speaker_name": "Pink",
-				"text": "Hi ez"
-			},
-			"2": {
-				"speaker_id": "1",
-				"speaker_name": "Ezmeralda",
-				"text": "Hi Pink"
-			},
-			"3": {
-				"speaker_id": "gem",
-				"speaker_name": "Idiom Found!",
-				"text": "You collected a new idiom!"
-			}
-		},
-		"1": {
-			"0": {
-				"speaker_id": "2",
-				"speaker_name": "Neon",
-				"text": "This i|[color=red]s the part[/color]| where | the text goes"
-			},
-			"1": {
-				"speaker_id": "0",
-				"speaker_name": "Pink",
-				"text": "This would be used for the other person"
-			},
-			"2": {
-				"speaker_id": "1",
-				"speaker_name": "Neon",
-				"text": "Very cool"
-			},
-			"3": {
-				"speaker_id": "0",
-				"speaker_name": "Pink",
-				"text": "Yes"
-			}
-		}
-	}
+    "scripts": {
+        "0": {
+            "0": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Greetings, your royal highness."
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Greetings, sir Zeren."
+            },
+            "2": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "How are you doing today?"
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": " I’m so bored. There’s nothing to do around here. I don’t know, everything just feels so monotonous and one-dimensional."
+            },
+            "4": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Well, it’s two-dimensional, but I see your point. Why don’t you go on an adventure? That’s what I did when I was a youngin’. And look where I am now!"
+            },
+            "5": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "A royal knight for a completely peaceful kingdom?"
+            },
+            "6": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Well… it’s a very low-stress job."
+            },
+            "7": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Even if I wanted to travel, I wouldn’t dare. I would worry my parents sick!"
+            },
+            "8": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Why don’t you just take the inter-dimensional portal door?"
+            },
+            "9": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Huh, I didn’t know we had that. "
+            },
+            "10": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "That’s how I got here. I left my home country Turkey through the portal doors when I was 15, and never looked back since."
+            },
+            "11": {
+                "speaker_id": "0",
+                "speaker_name": "Zeren",
+                "text": "Zeren looks off into the distance before brightening up."
+            },
+            "12": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Hey, I have an idea! Why don’t you go collect some colour gems? They are different coloured gems that have idioms inscribed on them. To collect them, all you have to do is run over them. "
+            },
+            "13": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "How oddly specific. "
+            },
+            "14": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "And while you’re at it, you could meet some interesting travellers too!"
+            },
+            "15": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Hmm… Well, it does sound interesting."
+            },
+            "16": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Then it’s decided then. You’ll be going on an adventure today! I’ll meet you by the inter-dimensional door to see you off."
+            },
+            "17": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "See you then!"
+            }
+        },
+        "1": {
+            "0": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Well, this is it. Meet me at the Endpoint Portal. You'll know where to find it."
+            },
+            "1": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Here, why don’t you take this gem as a parting gift? "
+            },
+            "2": {
+                "speaker_id": "gem_pink",
+                "speaker_name": "[color=pink]Turkish Idiom[/color]",
+                "text": "pembe yalan|[color=pink]pink lie[/color] |a white (harmless) lie"
+            },
+            "3": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Remember when I said this trip was completely safe? Well, you could call that a [color=pink]pembe yalan[/color]."
+            },
+            "4": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "W-wait, what?"
+            },
+            "5": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "Bye now!"
+            }
+        },
+        "2": {
+            "0": {
+                "speaker_id": "2",
+                "speaker_name": "Penelope",
+                "text": "There you are Rose! I thought I had lost you."
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Uh, who?"
+            },
+            "2": {
+                "speaker_id": "2",
+                "speaker_name": "Penelope",
+                "text": "Oh, sorry. From afar, you looked like a friend who I was travelling with."
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Sorry."
+            },
+            "4": {
+                "speaker_id": "2",
+                "speaker_name": "Penelope",
+                "text": "No, don’t be. I must also be tired. J’ai [color=lightgrey]passé une nuit blanche[/color]."
+            },
+            "5": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "What?"
+            },
+            "6": {
+                "speaker_id": "2",
+                "speaker_name": "Penelope",
+                "text": "It’s an idiom that means “I had a sleepless night” in France, which is the country I’m from."
+            },
+            "7": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Where does that come from?"
+            },
+            "8": {
+                "speaker_id": "2",
+                "speaker_name": "Penelope",
+                "text": "Well, there are a few different theories. But my personal favourite is a reference to the knights of the Middle Ages."
+            },
+            "9": {
+                "speaker_id": "2",
+                "speaker_name": "Penelope",
+                "text": "They would wear a white long dress on the eve of their dubbing. They wouldn’t sleep the night before their ceremony in order to devote themselves to prayer."
+            },
+            "10": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Ahh, I see. Very interesting!"
+            },
+            "11": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Well, I hope you find your friend."
+            },
+            "12": {
+              
+                "speaker_id": "2",
+                "speaker_name": "Penelope",
+                "text": "Thanks! Here, take this. Consider it an apology for bothering you."
+            },
+            "13": {
+                "speaker_id": "gem_white",
+                "speaker_name": "[color=lightgrey]French Idiom[/color]",
+                "text": "Passer une nuit blanche|To spend a white night |To have a sleepless night"
+            }
+        },
+        "3": {
+            "0": {
+                "speaker_id": "3",
+                "speaker_name": "Montrel",
+                "text": "Excuse me, do you know if this is the Pink Kingdom?"
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Actually, it’s one portal door over."
+            },
+            "2": {
+                "speaker_id": "3",
+                "speaker_name": "Montrel",
+                "text": "Oops! Ho [color=brown]commesso un marrone![/color]"
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "You what?"
+            },
+            "4": {
+                "speaker_id": "3",
+                "speaker_name": "Montrel",
+                "text": "I committed a brown, which means that I made a blunder because of my carelessness."
+            },
+            "5": {
+                "speaker_id": "3",
+                "speaker_name": "Montrel",
+                "text": "It’s an Italian Idiom."
+            },
+            "6": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Huh. The more you know."
+            },
+            "7": {
+                "speaker_id": "3",
+                "speaker_name": "Montrel",
+                "text": "Indeed. Well, I ought to go now. Here, have this as a thank you! Bye!"
+            },
+            "8": {
+                "speaker_id": "gem_brown",
+                "speaker_name": "[color=brown]Italian Idiom[/color]",
+                "text": "commesso un marrone|committed a brown |make a blunder because of carelessness"
+            }
+        },
+        "4": {
+            "0": {
+                "speaker_id": "4",
+                "speaker_name": "Esperanza",
+                "text": "You! Over there! What’s your favourite colour?"
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Purple."
+            },
+            "2": {
+                "speaker_id": "4",
+                "speaker_name": "Esperanza",
+                "text": "Darn. Then you’re not who I am looking for. I’m looking for my [color=orange]media naranja[/color], and I just know that their favourite colour wouldn’t be purple. "
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "What’s a media naranja?"
+            },
+            "4": {
+                "speaker_id": "4",
+                "speaker_name": "Esperanza",
+                "text": "My better half! My soulmate! This idiom is popular in Spain, but it comes from an ancient Greek legend from Plato’s The Banquet. "
+            },
+            "5": {
+                "speaker_id": "4",
+                "speaker_name": "Esperanza",
+                "text": "In the story, humans used to be round orange-shaped creatures with two faces on the same head. So vain because of their completeness, they approached the Gods as equals."
+            },
+            "6": {
+                "speaker_id": "4",
+                "speaker_name": "Esperanza",
+                "text": "Zeus, insulted at their arrogance, separated the humans with a bolt of lightning."
+            },
+            "7": {
+                "speaker_id": "4",
+                "speaker_name": "Esperanza",
+                "text": "Thus, he condemned everyone to spend their lives searching for their other half. Much like I’m doing right now."
+            },
+            "8": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "What will you do when you find them?"
+            },
+            "9": {
+                "speaker_id": "4",
+                "speaker_name": "Esperanza",
+                "text": "Live in harmony, of course! And I really must not waste any time. Here, you can have this. It was weighing me down. "
+            },
+            "10": {
+                "speaker_id": "gem_orange",
+                "speaker_name": "[color=orange]Spanish Idiom[/color]",
+                "text": "media naranja|orange half |better half; soulmate"
+            }
+        },
+        "5": {
+            "0": {
+                "speaker_id": "5",
+                "speaker_name": "Elmo",
+                "text": "Wait, before you enter! Are you aware of the safety precautions you must take?"
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "What safety precautions?"
+            },
+            "2": {
+                "speaker_id": "5",
+                "speaker_name": "Elmo",
+                "text": "They never teach kids anything useful these days."
+            },
+            "3": {
+                "speaker_id": "5",
+                "speaker_name": "Elmo",
+                "text": "In case you want to avoid a serious case of the Portal Jump Jitters, you should keep your head down, your arms tucked in, your toes clenched."
+            },
+            "4": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "That sounds easy enough. "
+            },
+            "5": {
+                "speaker_id": "5",
+                "speaker_name": "Elmo",
+                "text": "You say that now. I wouldn’t take this lightly. Weit mehr als [color=grey]graue theorie.[/color] "
+            },
+            "6": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Eh?"
+            },
+            "7": {
+                "speaker_id": "5",
+                "speaker_name": "Elmo",
+                "text": "German saying from where I’m from. It’s much more than grey theory, y’know? This is not just some dull theory you’re hearing. It’s the real deal."
+            },
+            "8": {
+                "speaker_id": "5",
+                "speaker_name": "Elmo",
+                "text": "I got the Portal Jump Jitters yesterday and I’ve had to stop my travels for a few days."
+            },
+            "9": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Oh, sorry about that."
+            },
+            "10": {
+                "speaker_id": "5",
+                "speaker_name": "Elmo",
+                "text": "My fault for not paying attention. Wish you better luck."
+            },
+            "11": {
+                "speaker_id": "gem_grey",
+                "speaker_name": "[color=grey]German Idiom[/color]",
+                "text": "graue theorie|grey theory |An unproven theory."
+            }
+        },
+        "6": {
+            "0": {
+                "speaker_id": "6",
+                "speaker_name": "Guanyin",
+                "text": "Hey, watch where you’re going!"
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Oh sorry, I was distracted by how beautiful the city is. It’s nothing like this where I’m from."
+            },
+            "2": {
+                "speaker_id": "6",
+                "speaker_name": "Guanyin",
+                "text": "You must be a portal traveller, then. I feel the same way, but natives of the city are not usually so excited."
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Seriously?! Why not?"
+            },
+            "4": {
+                "speaker_id": "6",
+                "speaker_name": "Guanyin",
+                "text": "Huge economic recession going on around here. In China, where I’m from, we have a saying for it."
+            },
+            "5": {
+                "speaker_id": "6",
+                "speaker_name": "Guanyin",
+                "text": "青黄不接 (qīng huáng bù jiē). Spring yellow not received; in other words, the autumn will not last until spring."
+            },
+            "6": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "So… resources are low and one might not be able to make ends meet? "
+            },
+            "7": {
+                "speaker_id": "6",
+                "speaker_name": "Guanyin",
+                "text": "Right on the money. Yellow is often associated with the earth and is representative of the Chinese as a people."
+            },
+            "8": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "I think Yellow is a pretty colour."
+            },
+            "9": {
+                "speaker_id": "6",
+                "speaker_name": "Guanyin",
+                "text": "You’re clever, I like you."
+            },
+            "10": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Oh, thanks. Uh, you too, I guess."
+            },
+            "11": {
+                "speaker_id": "6",
+                "speaker_name": "Guanyin",
+                "text": "Wish I could stay to show you around, but I have places to go. Here, take this instead."
+            },
+            "12": {
+                "speaker_id": "gem_yellow",
+                "speaker_name": "[color=yellow]Chinese Idiom[/color]",
+                "text": "青黄不接 (qīng huáng bù jiē)|spring yellow not received |resources are low; not able to make ends meet."
+            }
+        },
+        "7": {
+            "0": {
+                "speaker_id": "7",
+                "speaker_name": "Yasashiku",
+                "text": "You ever wonder who is leaving all of these gems around?"
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Hello to you too."
+            },
+            "2": {
+                "speaker_id": "7",
+                "speaker_name": "Yasashiku",
+                "text": "I mean, it’s a little impractical, isn’t it? And careless. Although nobody seems to be complaining."
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Do you think that somebody is behind it?"
+            },
+            "4": {
+                "speaker_id": "7",
+                "speaker_name": "Yasashiku",
+                "text": "Naturally. 私は誰が黒幕が知っている (Watashi wa dare ga kuromaku ga shitte iru)。"
+            },
+            "5": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Let me guess, an idiom?"
+            },
+            "6": {
+                "speaker_id": "7",
+                "speaker_name": "Yasashiku",
+                "text": "Yes! 黒幕 (kuromaku) is an idiom meaning black curtain in Japan. A mastermind or wire puller, to put it more plainly."
+            },
+            "7": {
+                "speaker_id": "7",
+                "speaker_name": "Yasashiku",
+                "text": " So all put together, I said that I know who is pulling the strings."
+            },
+            "8": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "And you trust me, a total stranger, enough to tell me who it is?"
+            },
+            "9": {
+                "speaker_id": "7",
+                "speaker_name": "Yasashiku",
+                "text": "I never said I was going to tell you. I just said that I know who it is."
+            },
+            "10": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Then why are you talking to me in the first place?"
+            },
+            "11": {
+                "speaker_id": "7",
+                "speaker_name": "Yasashiku",
+                "text": "Pardon me for trying to be friendly. You can go. Throw this out for me while you are at it.."
+            },
+            "12": {
+                "speaker_id": "gem_black",
+                "speaker_name": "Japanese Idiom",
+                "text": "黒幕 (Kuromaku)|black curtain |mastermind; wire puller; political fixer"
+            }
+        },
+        "8": {
+            "0": {
+                "speaker_id": "8",
+                "speaker_name": "Xuan",
+                "text": "Hello, dear traveller."
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "How did you know that I am a traveller?"
+            },
+            "2": {
+                "speaker_id": "8",
+                "speaker_name": "Xuan",
+                "text": "Someone as young and springy as you is just meant to be going out on some amazing adventures, don’t you think?"
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "You don’t seem much older than me."
+            },
+            "4": {
+                "speaker_id": "8",
+                "speaker_name": "Xuan",
+                "text": "You flatter me! Ah, to be [color=green]tóc xanh[/green], so young and naive."
+            },
+            "5": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Tóc xanh?"
+            },
+            "6": {
+                "speaker_id": "8",
+                "speaker_name": "Xuan",
+                "text": "Tóc xanh. It literally translates to “green hair” but is often also a term used to describe young ones like you in my home country, Vietnam."
+            },
+            "7": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "But I have pink hair."
+            },
+            "8": {
+                "speaker_id": "8",
+                "speaker_name": "Xuan",
+                "text": "It’s not just about your physical character, but your human character. You are a youthful adventurist, so you are tóc xanh."
+            },
+            "9": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Got it."
+            },
+            "10": {
+                "speaker_id": "8",
+                "speaker_name": "Xuan",
+                "text": "Now, onward! There is so much of the world to discover, and so little time to do it. Take this, it may be useful in your travels."
+            },
+            "11": {
+                "speaker_id": "gem_green",
+                "speaker_name": "[color=green]Vietnamese Idiom[/color]",
+                "text": "tóc xanh|green hair |to be young"
+            }
+        },
+        "9": {
+            "0": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "Hm, yes?"
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "I was just wondering if I was heading the right way? I’m trying to get to Endpoint."
+            },
+            "2": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "Yes, yes, continue on [color=blue]dootɬʔizh.[/color]"
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "dootɬʔizh?"
+            },
+            "4": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "That’s what I said."
+            },
+            "5": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Would you mind elaborating?"
+            },
+            "6": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "Oh! You must not be from around here. I did think your attire was a bit outlandish."
+            },
+            "7": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "In the Navajo Nation, we believe that there is harmony uniting all living creatures with each other and the rest of the universe. "
+            },
+            "8": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "In order to maintain this harmony, us Earth People – the Diné – must maintain harmony with the Holy People."
+            },
+            "9": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "The Holy People are those with the power to cause us great harm. A long, long time ago, the Holy People taught us how to live on earth.."
+            },
+            "10": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "Not only did they teach us how to live in harmony, but they put four sacred mountains in four different directions."
+            },
+            "11": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "These directions are represented by four colours: white for the ease, blue for the south, yellow for the west, and black for the north."
+            },
+            "12": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "So… by blue, you mean south."
+            },
+            "13": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "Indeed."
+            },
+            "14": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Would you call that an idiom?"
+            },
+            "15": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "I’m not quite sure."
+            },
+            "16": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "There is an awkward silence."
+            },
+            "17": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "Would you like to know more?"
+            },
+            "18": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Oh, it’s just usually the travellers I meet give me gems."
+            },
+            "19": {
+                "speaker_id": "9",
+                "speaker_name": "Doli",
+                "text": "..."
+            },
+            "20": {
+                "speaker_id": "gem_blue",
+                "speaker_name": "[color=blue]Navajo Idiom[/color]",
+                "text": "dootɬʔizh|blue |south"
+            }
+        },
+        "10": {
+            "0": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "Where is it?!"
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Do you need any help?"
+            },
+            "2": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "AHHHHHHH!!!"
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "AHHHH!!!"
+            },
+            "4": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "Oh, it’s just a human. You scared me."
+            },
+            "5": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "What are you looking for?"
+            },
+            "6": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "My special bracelet! It seemed to just disappear somewhere. I’m so mad! Isso me faz [color=purple]ficar roxo de raiva.[/purple]"
+            },
+            "7": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Ficar roxo de rai- Oh here we go again."
+            },
+            "8": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "Back in Portugal, the idiom “ficar roxo de raiva” means that we become very angry."
+            },
+            "9": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "It quite literally translates to “turn purple with rage,” but I’m not too sure where the purple comes in. "
+            },
+            "10": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "Maybe it’s because when people get angry, they tend to turn purple in the face?"
+            },
+            "11": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "But you know, I’m not sure that makes so much sense because– "
+            },
+            "12": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Oh hey, is that the special bracelet you were talking about?"
+            },
+            "13": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "WHAT? WHERE?"
+            },
+            "14": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "On your left wrist."
+            },
+            "15": {
+                "speaker_id": "10",
+                "speaker_name": "Livia",
+                "text": "It is! Wow, I never would have found it. It’s always on my right wrist. Silly me! Here, take this as a thank you gift."
+            },
+            "16": {
+                "speaker_id": "gem_purple",
+                "speaker_name": "[color=purple]Portuguese Idiom[/color]",
+                "text": "ficar roxo de raiva|turn purple with rage. |to become very angry."
+            }
+        },
+        "11": {
+            "0": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "Miss, please be careful! You’re going so fast. Don’t wanna fall off these rocks."
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Don’t worry, I’ll be careful! Just want to get to the Endpoint. I’m stating to get hungry, and I haven’t had lunch."
+            },
+            "2": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "The Endpoint will always be there. You don’t want to experience an [color=red]الموت الأحمر (almawt-alahmar)[/color]"
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Where did this idiom come from?"
+            },
+            "4": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "How did you know it was an idiom?"
+            },
+            "5": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "You would not believe the day I’ve had."
+            },
+            "6": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "Anyway, [color=red]الموت الأحمر (almawt-alahmar)[/color] translates to a “red death” in Arabic."
+            },
+            "7": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "It’s an idiom from Eritrea, where I’m from. It means to die from an extremely painful death."
+            },
+            "8": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "In Arabic, the colour red is packed with negative symbolism. It’s a colour of danger and anger."
+            },
+            "9": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Oh, I understand. Falling from this height would certainly be a red death."
+            },
+            "10": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "Yes, so make sure not to fall!"
+            },
+            "11": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "I’ll be careful."
+            },
+            "12": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "Then, I’ll be on my way. Here, have this. I have no use for it anymore."
+            },
+            "13": {
+                "speaker_id": "gem_red",
+                "speaker_name": "[color=red]Arabic Idiom[/color]",
+                "text": "الموت الأحمر (almawt-alahmar)|red death. |a painful death, like murder"
+            }
+        },
+        "12": {
+            "0": {
+                "speaker_id": "1",
+                "speaker_name": "Zeren",
+                "text": "There you are, your highness!"
+            },
+            "1": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Zeren!"
+            },
+            "2": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "Did you have fun on your travels?"
+            },
+            "3": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Loads of fun. I learned a lot too."
+            },
+            "4": {
+                "speaker_id": "11",
+                "speaker_name": "Hamal",
+                "text": "Would you like to tell me about it?"
+            },
+            "5": {
+                "speaker_id": "0",
+                "speaker_name": "Pinky",
+                "text": "Sure! But first, let’s head back home. I’m starving."
+            }
+        }
+    }
 }
